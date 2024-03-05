@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bito's Natcats Rarity</h1>
+    <p>This is the <b>first unofficial</b> rarity chart for <b>$DMT-Natcats</b> collection on Bitcoin Ordinals. You can read more about the collection on the official website - <a href="https://natcats.xyz/">natcats.xyz</a><br>
+    This rarity ranking is created by exporting all data from the blockchain using the traits listed on the official website. Then... <br>
+    This is work in progress and there could be mistakes. If you notice something, please contant me.<br></p>
+    <p>Created by <b>Bito Ordileone</b> &#127801; <a href="https://twitter.com/bitoordileone">Follow me on X.com</a><br>
+    <b>WAGMI</b></p>
+    <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Search by block number or trait name...">
+    <table id="galleryTable">
+        <thead>
+            <tr>
+                <th>Rarity#</th>
+                <th>Block</th>
+                <th>Image</th>
+                <th>Traits</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- JavaScript will dynamically fill this part -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
